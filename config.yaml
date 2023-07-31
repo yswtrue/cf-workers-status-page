@@ -47,6 +47,7 @@ monitors:
     description: 'openwrt'
     url: 'https://openwrt.yswtrue.com'
     method: GET
+    followRedirect: true # should fetch follow redirects, default=false
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
