@@ -41,3 +41,12 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+    
+  - id: openwrt
+    name: openwrt.yswtrue.com
+    description: 'openwrt'
+    url: 'https://openwrt.yswtrue.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
